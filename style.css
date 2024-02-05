@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200;400&display=swap');
+.navbar{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	background-color:rgb(175,238,238);
+}
+.navbar-left{
+	padding-left:30px;
+}
+.navbar-right{
+	padding-right: 30px;
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+	font-family: Impact;
+	color:black;
+
+}
+.a-element{
+	padding:10px;
+	color:black;
+	text-decoration: none;
+}
+.a-element:hover{
+	color:rgb(23, 233, 23);
+}
+.home{
+	display: flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content: space-between;
+	height: 80vh;
+}
+.home-left{
+width:60vw;
+text-align: justify;
+padding-left:40px;
+
+}
+.home-right{
+	width:30vw;
+}
+.prasadimg{
+	width:400px;
+	height:400px;
+}
+body{
+	background-color:black;
+	color: white;
+	font-size:18px;
+}
+.logo{
+	width: 60px;
+	height:60px;
+	margin: 10px;
+	border-radius:5%;
+}
+.home-h1{
+
+
+
+}
+.home-p{
+	font-family: 'Encode Sans', sans-serif;
+
+}
+.services{
+
+	padding:10px;
+	text-align: center;
+
+}
+.ser-h1{
+	font-family: 'Ubuntu', sans-serif;
+	color: rgb(26, 241, 26);
+	font-style: italic;
+	letter-spacing:2px;
+}
+.services-sub-cont{
+	display: flex;
+	flex-direction:row;
+	
+	
+}
+.services-card{
+    border: 2px solid green;
+    margin: 9px;
+}
+.contact{
+	text-align: center;
+}
+.contact-info{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+
+}
+.s-logo{
+	width: 10px;
+	height: 10px;
+}
+.social-img{
+	width: 40px;
+	height: 40px;
+	padding:10px;
+}
+.services-img{
+	width: 50px;
+	height: 50px;
+	border-radius: 20%;
+}
